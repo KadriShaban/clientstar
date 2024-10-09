@@ -1,6 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import Header from './components/Header'; // Adjust the import path as needed
+import Header from "./components/Header"; // Adjust the import path as needed
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -12,6 +12,7 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+``;
 
 export const metadata = {
   title: "Create Next App",
@@ -29,3 +30,4 @@ export default function RootLayout({ children }) {
       </body>
     </html>
   );
+}
